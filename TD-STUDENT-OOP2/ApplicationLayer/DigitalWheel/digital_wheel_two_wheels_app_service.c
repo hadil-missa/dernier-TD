@@ -64,7 +64,7 @@ static void display(digital_wheel wheel, void (*f)(int))
 
 twoWheels DigitalWheelAppService_get_nth_two_wheels(int rank)
 {
-    /* another way: call IDigitalWheelRepository_get_nth_two_wheels *
+    /* another way: call IDigitalWheelRepository_get_nth_two_wheels */
     /* to construct a two_wheels directly.But,I did not implement it */
 
     digital_wheel wheel1 = IDigitalWheelRepository_get_nth_wheel(rank);
